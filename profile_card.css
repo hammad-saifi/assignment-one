@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+:root{
+    /* font style */
+    --name-font:"Montserrat", sans-serif;
+    --heading-font: "Oswald", sans-serif;
+    --pera-font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* size */
+    --name-size: 30px;
+    --title-size: 15px;
+    --pera-size: 15px;
+    --contuct-text-size: 20px;
+    /* color */
+    --color-one: #fff;
+    --color-two: #000000;
+    --color-tree: #5e5e5e;
+    /* others */
+    --bold: 500;
+    --bolder:600;
+    --bolest: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card-contaner{
+width: 100%;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--color-two);
+    background: #f7f4f4;
+}
+
+.card-image-cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image{
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background: url(./user-boy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-my_name-cont{
+    text-align: center;
+}
+.my_name-txt{
+    font-family: var(--heading-font);
+    font-size: var(--name-size);
+}
+
+.card-title-cont{
+    text-align: center;
+}
+.card-title-txt{
+    font-family: var(--name-font);
+    font-size: var(--title-size);
+    color: var(--color-tree);
+}
+
+.card-pera-cont{
+    text-align: center; 
+    padding: 15px; 
+}
+
+.card-pera-txt{
+    font-family: var(--pera-font);
+    font-size: var(--pera-size);
+}
+
+.contuct-text-cont{
+    margin-top: -10px;
+    text-align: center;
+}
+.contuct-text{
+    font-family: var(--heading-font);
+    font-weight: var(--bold);
+    font-size: var(--contuct-text-size);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-tree);
+}
+
+
+
+.phone,.gmail{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.fa-square-phone{
+    font-size: 18px;
+}
+
+
+.phone-span{
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: var(--bolder);
+    font-family: var(--pera-font);
+}
+.gmail-span{
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: var(--bolder);
+    font-family: var(--pera-font);
+}
+
+.other-social-links{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.link-one,.link-two,.link-three{
+    margin: 0px 20px 0px 20px;
+    transition: 0.3s;
+}
+.link-one:hover{
+    color: rgb(34, 34, 223);
+    text-shadow: 1px 1px 3px var(--color-tree);
+}
+.link-two:hover{
+    color: rgb(209, 31, 209);
+    text-shadow: 1px 1px 3px var(--color-tree);
+}
+.link-three:hover{
+    color: #242323;
+    text-shadow: 1px 1px 3px var(--color-tree);
+}
