@@ -3,7 +3,7 @@
 $celsius= 30;
 
 function celsiusToFahrenheit($celsius) {
-    $fahrenheit = ($celsius * 1.8) + 32;
+    $fahrenheit = ($celsius * 9/5) + 32;
     return $fahrenheit;
 }
 
